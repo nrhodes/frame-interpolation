@@ -8,8 +8,7 @@ setup(
     author="Google",
     author_email="neil@descript.com",
     url="https://github.com/bolasim/frame-interpolator",
-    packages=find_packages(),
-    py_modules=['film'],
+    packages=["film"],
     install_requires=[
         "tensorflow==2.13.0", # The latest should include tensorflow-gpu
         "tensorflow-datasets==4.9.2",
