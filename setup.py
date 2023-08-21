@@ -10,7 +10,7 @@ setup(
     url="https://github.com/nrhodes/filim",
     packages=find_packages(),
     install_requires=[
-        "tensorflow==2.6.2", # The latest should include tensorflow-gpu
+        "tensorflow==2.7", # The latest should include tensorflow-gpu
         "tensorflow-datasets==4.4.0",
         "tensorflow-addons==0.15.0",
         "absl-py==0.12.0",
