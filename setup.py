@@ -11,7 +11,7 @@ setup(
     packages=["film"],
     install_requires=[
         "tensorflow==2.10.0", # The latest should include tensorflow-gpu
-        "tensorflow-datasets==4.9.2",
+        "tensorflow-datasets",
         "tensorflow-addons==0.21.0",
         "absl-py==1.4.0",
         "gin-config==0.5.0",
