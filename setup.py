@@ -10,7 +10,7 @@ setup(
     url="https://github.com/bolasim/frame-interpolator",
     packages=["film"],
     install_requires=[
-        "tensorflow==2.13.0", # The latest should include tensorflow-gpu
+        "tensorflow==2.10.0", # The latest should include tensorflow-gpu
         "tensorflow-datasets==4.9.2",
         "tensorflow-addons==0.21.0",
         "absl-py==1.4.0",
